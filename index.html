@@ -36,6 +36,16 @@ section {
   <a href="#gallery" class="text-white hover:text-red-200 font-medium">Gallery</a>
   <a href="#achievements" class="text-white hover:text-red-200 font-medium">Achievements</a>
 </div>
+
+<button onclick="document.getElementById('mobile-menu').classList.toggle('hidden')" class="sm:hidden text-white text-2xl">☰</button>
+
+<div id="mobile-menu" class="hidden absolute top-16 left-0 w-full bg-red-700 z-50 sm:hidden">
+  <a href="#about" onclick="document.getElementById('mobile-menu').classList.add('hidden')" class="block text-white px-6 py-3 border-b border-red-600 hover:bg-red-800">About</a>
+  <a href="#classes" onclick="document.getElementById('mobile-menu').classList.add('hidden')" class="block text-white px-6 py-3 border-b border-red-600 hover:bg-red-800">Classes</a>
+  <a href="#branches" onclick="document.getElementById('mobile-menu').classList.add('hidden')" class="block text-white px-6 py-3 border-b border-red-600 hover:bg-red-800">Contact</a>
+  <a href="#gallery" onclick="document.getElementById('mobile-menu').classList.add('hidden')" class="block text-white px-6 py-3 border-b border-red-600 hover:bg-red-800">Gallery</a>
+  <a href="#achievements" onclick="document.getElementById('mobile-menu').classList.add('hidden')" class="block text-white px-6 py-3 hover:bg-red-800">Achievements</a>
+</div>
         </div>
     </nav>
     <!--HERO SECTION-->
